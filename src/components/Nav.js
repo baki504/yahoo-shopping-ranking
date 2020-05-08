@@ -1,18 +1,49 @@
-import React from "react";
+import Drawer from "@material-ui/core/Drawer";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
+import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import React from "react";
 
-export default function Nav({ categories }) {
+const drawerWidth = 240;
+
+const useStyles = makeStyles(() =>
+  createStyles({
+    drawer: {
+      width: drawerWidth,
+      flexShrink: 0,
+    },
+    drawerPaper: {
+      width: drawerWidth,
+    },
+  })
+);
+
+export default function Nav({ categories, onClick }) {
+  const classes = useStyles();
   const to = (category) =>
     category.id === "1" ? "/all" : `/category/${category.id}`;
   return (
-    <ul>
-      {categories.map((category) => (
-        <li key={`nav-item-${category.id}`}>
-          <Link to={to(category)}>{category.name}</Link>
-        </li>
-      ))}
-    </ul>
+    <Drawer
+      variant="permanent"
+      anchor="left"
+      classes={{
+        paper: classes.drawerPaper,
+      }}
+    >
+      <List>
+        {categories.map((category) => (
+          <ListItem
+            button
+            key={`nav-item-${category.id}`}
+            onClick={() => onClick(to(category))}
+          >
+            <ListItemText primary={category.name} />
+          </ListItem>
+        ))}
+      </List>
+    </Drawer>
   );
 }
 
@@ -23,4 +54,5 @@ Nav.propTypes = {
       name: PropTypes.string.isRequired,
     })
   ).isRequired,
+  onClick: PropTypes.func.isRequired,
 };
