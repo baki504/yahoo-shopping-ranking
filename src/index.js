@@ -1,5 +1,5 @@
 import { ConnectedRouter } from "connected-react-router";
-import { createBrowserHistory } from "history";
+import createHistory from "history/createHashHistory";
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
@@ -8,7 +8,7 @@ import configureStore from "./configureStore";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
-const history = createBrowserHistory();
+const history = createHistory();
 
 const store = configureStore(history);
 
