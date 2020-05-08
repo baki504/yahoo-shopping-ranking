@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/yahoo-shopping-ranking/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/yahoo-shopping-ranking/static/js/main.ab2ad286.chunk.js",
-    "main.js.map": "/yahoo-shopping-ranking/static/js/main.ab2ad286.chunk.js.map",
+    "main.js": "/yahoo-shopping-ranking/static/js/main.02be019c.chunk.js",
+    "main.js.map": "/yahoo-shopping-ranking/static/js/main.02be019c.chunk.js.map",
     "runtime-main.js": "/yahoo-shopping-ranking/static/js/runtime-main.52bee4da.js",
     "runtime-main.js.map": "/yahoo-shopping-ranking/static/js/runtime-main.52bee4da.js.map",
-    "static/js/2.b9bfd97b.chunk.js": "/yahoo-shopping-ranking/static/js/2.b9bfd97b.chunk.js",
-    "static/js/2.b9bfd97b.chunk.js.map": "/yahoo-shopping-ranking/static/js/2.b9bfd97b.chunk.js.map",
+    "static/js/2.494e343e.chunk.js": "/yahoo-shopping-ranking/static/js/2.494e343e.chunk.js",
+    "static/js/2.494e343e.chunk.js.map": "/yahoo-shopping-ranking/static/js/2.494e343e.chunk.js.map",
     "index.html": "/yahoo-shopping-ranking/index.html",
-    "precache-manifest.7f41572b2bbf61c3c115465d2235fafa.js": "/yahoo-shopping-ranking/precache-manifest.7f41572b2bbf61c3c115465d2235fafa.js",
+    "precache-manifest.a490752026b33745fe1f6c09ac1d920c.js": "/yahoo-shopping-ranking/precache-manifest.a490752026b33745fe1f6c09ac1d920c.js",
     "service-worker.js": "/yahoo-shopping-ranking/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/yahoo-shopping-ranking/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.b9bfd97b.chunk.js.LICENSE.txt": "/yahoo-shopping-ranking/static/js/2.b9bfd97b.chunk.js.LICENSE.txt"
+    "static/js/2.494e343e.chunk.js.LICENSE.txt": "/yahoo-shopping-ranking/static/js/2.494e343e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.52bee4da.js",
-    "static/js/2.b9bfd97b.chunk.js",
+    "static/js/2.494e343e.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.ab2ad286.chunk.js"
+    "static/js/main.02be019c.chunk.js"
   ]
 }

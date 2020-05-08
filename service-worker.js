@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yahoo-shopping-ranking/precache-manifest.7f41572b2bbf61c3c115465d2235fafa.js"
+  "/yahoo-shopping-ranking/precache-manifest.a490752026b33745fe1f6c09ac1d920c.js"
 );
 
 self.addEventListener('message', (event) => {
